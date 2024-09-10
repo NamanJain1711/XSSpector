@@ -57,7 +57,7 @@ Prerequisites:
 
 Install XSSpector:
 
-    Clone the XSSpector repository: git clone https://github.com/your-username/xsspector.git
+    Clone the XSSpector repository: git clone https://github.com/vigrahak/xsspector.git
     Change into the XSSpector directory: cd xsspector
     Install the required libraries
     Run XSSpector: python3 xsspector.py [options]
