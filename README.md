@@ -1,4 +1,4 @@
-XSSpector
+XSSpector (This tool in Testing phase with few payloads please try to use your own custom payloads...within month we will launch our final tool with more funtions like file upload test ....thankyou)
 
 XSSpector is a powerful and versatile tool designed to detect and exploit Cross-Site Scripting (XSS) vulnerabilities in web applications. With its advanced features and user-friendly interface, XSSpector is the perfect tool for security researchers, penetration testers, and developers who want to identify and remediate XSS vulnerabilities in their web applications.
 
@@ -27,19 +27,26 @@ python xsspector.py [options]
 
 Options:
 
-    -h, --help: Show this help message and exit
-    -u, --url: Specify the URL to scan (required)
-    -p, --proxy: Specify the proxy to use (e.g. http://localhost:8080)
-    -c, --cookie: Specify the cookie to use (e.g. {"session_id": "1234567890"})
-    -a, --agent: Specify the user agent to use (e.g. Mozilla/5.0)
-    -v, --verbose: Enable verbose mode
-    -q, --quiet: Enable quiet mode
+    -u Target url (e.g. http://testphp.vulnweb.com)
+    --depth Depth web page to crawl. Default: 2
+    --payload-level Level for payload Generator, 1 for custom payload.  Default: 1
+    --payload Load custom payload directly (e.g. <script>alert('Vigrahak')</script>)
+    --payloads-file Load payloads from a file (e.g. payloads.txt)
+    --method Method setting(s): \n\t0: GET\n\t1: POST\n\t2: GET and POST (default)
+    --user-agent Request user agent (e.g. Chrome/2.1.1/...)
+    --single Single scan. No crawling just one address")
+    --proxy Set proxy (e.g. {'https':'https://10.10.1.10:1080'}
+    --about Print information about XSS tool
+    --cookie Set cookie (e.g {'ID=session')
+    --fuzz Fuzz parameter URL (e.g. http://example.com/test?param=143)
 
 Examples:
 
-    python xsspector.py -u https://example.com
-    python xsspector.py -u https://example.com -p http://localhost:8080
-    python xsspector.py -u https://example.com -c {"session_id": "1234567890"}
+    python3 xsspector.py -u https://example.com
+    python3 xsspector.py -u https://example.com --payloads-file xsspayloads.txt
+    python3 xsspector.py -u https://example.com -p http://localhost:8080
+    python3 xsspector.py -u https://example.com -c {"session_id": "1234567890"}
+    python3 xsspector.py --fuzz "https://example.com/test?value=123" --payloads-file xsspayloads.txt
 
 Installation
 
@@ -61,3 +68,5 @@ Note: Make sure to replace https://github.com/your-username/xsspector.git with t
 ![xz2](https://github.com/user-attachments/assets/f98acc49-edf8-4bfa-b862-804e7a5067e6)
 
 Let me know if you need any further modifications!
+Contact: vigrahak1828@gmail.com
+Donation: https://www.paypal.com/paypalme/SourrahS1828
