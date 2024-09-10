@@ -59,8 +59,8 @@ Install XSSpector:
 
     Clone the XSSpector repository: git clone https://github.com/your-username/xsspector.git
     Change into the XSSpector directory: cd xsspector
-    Install the required libraries: pip install -r requirements.txt
-    Run XSSpector: python xsspector.py [options]
+    Install the required libraries
+    Run XSSpector: python3 xsspector.py [options]
 
 Note: Make sure to replace https://github.com/your-username/xsspector.git with the actual URL of your XSSpector repository.
 
