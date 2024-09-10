@@ -44,8 +44,8 @@ Examples:
 
     python3 xsspector.py -u https://example.com
     python3 xsspector.py -u https://example.com --payloads-file xsspayloads.txt
-    python3 xsspector.py -u https://example.com -p http://localhost:8080
-    python3 xsspector.py -u https://example.com -c {"session_id": "1234567890"}
+    python3 xsspector.py -u https://example.com --proxy http://localhost:8080
+    python3 xsspector.py -u https://example.com --cookie {"session_id": "1234567890"}
     python3 xsspector.py --fuzz "https://example.com/test?value=123" --payloads-file xsspayloads.txt
 
 Installation
