@@ -68,4 +68,4 @@ Install XSSpector:
 
 Let me know if you need any further modifications!
 Contact: vigrahak1828@gmail.com
-Donation: https://www.paypal.com/paypalme/SourrahS1828
+Donation: https://www.paypal.me/SourabhS1828
