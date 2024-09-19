@@ -1,3 +1,4 @@
+Hii you are hacked!
 XSSpector  (This tool in Testing phase with few payloads please try to use your own custom payloads...within month we will launch our final tool with more funtions like file upload test ....thankyou)
 
 XSSpector is a powerful and versatile tool designed to detect and exploit Cross-Site Scripting (XSS) vulnerabilities in web applications. With its advanced features and user-friendly interface, XSSpector is the perfect tool for security researchers, penetration testers, and developers who want to identify and remediate XSS vulnerabilities in their web applications.
