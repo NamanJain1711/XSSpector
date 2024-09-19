@@ -62,7 +62,6 @@ Install XSSpector:
     Install the required libraries
     Run XSSpector: python3 xsspector.py [options]
 
-Note: Make sure to replace https://github.com/your-username/xsspector.git with the actual URL of your XSSpector repository.
 
 ![xz1](https://github.com/user-attachments/assets/baed817a-088b-444e-89d8-97f26e949089)
 ![xz2](https://github.com/user-attachments/assets/f98acc49-edf8-4bfa-b862-804e7a5067e6)
